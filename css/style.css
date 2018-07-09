@@ -1,0 +1,85 @@
+body {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-image: url("../images/img_kadai.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 250px;
+    background-position: center center;
+  }
+}
+
+main .box .title {
+  background-color: gainsboro;
+  padding: 10px;
+  margin: 0;
+}
+
+
+main .container {
+  display: flex;
+  flex-direction: row;
+  /*横並び*/
+}
+
+
+main .box {
+  background-color: gray;
+  margin: 10px;
+  flex: 1;
+}
+
+p {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  main .container {
+    flex-direction: column;
+    /*縦並び*/
+  }
+}
+
+main h1 {
+  color: red;
+  text-align: center;
+}
+
+
+footer {
+  background-color: whitesmoke;
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+footer h1 {
+  color: darkgray;
+  text-align: center;
+}
+
+.botton {
+  text-align: center
+}
+
+.square_btn {
+  display: inline-block;
+  width: 50px;
+  padding: 0.5em 3em;
+  background: gray;
+  /*ボタン色*/
+  color: silver;
+  border-bottom: solid 5px dimgray;
+  border-radius: 7px;
+
+}
